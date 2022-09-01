@@ -97,7 +97,7 @@ nav ul li a:hover{
    background-repeat: no-repeat;
    position: relative;
    padding-bottom: 70px;
-   margin-bottom: 15%; 
+   margin-bottom: 10%; 
 }
 
 .explore-wrapper{
@@ -163,47 +163,55 @@ p{
    font-size: 30px;
  }
 
-  /*.border{
+  .border{
       width: 20%;
       margin: 0 auto;
       height: 3px;
       background-color: lightgray;
-      border-top: 5px solid #a96ea9;
+      border-top: 5px solid #f3ccf3;
       margin-bottom: 10%;
- }
+ } 
 
 .app{
-   height: 500px;
-   width: 900px;
+   width: 100%;
    display: flex;
    flex-direction: column;
-   background-color: rgb(243, 242, 245);
+   background-image: url(/Assets/images/chihuahua-g95e7ee3f3_1920.jpg);
    margin-bottom: 20%;
-   margin-left: 30%;
+   height: 80vh;
 }
 
 .header{
    text-align: center;
    padding: 20px 0;
-   font-size: 30px;
+   font-size: 40px;
 }
 
-.header h1{
+.header h2{
    margin: 0 0 10px 0;
+   color: white;
+   font-weight: bold;
+
 }
 
 .header select{
-   font-size: 1rem;
+   font-size: 25px;
 }
+
+.title-control{
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .slideshow{
-   flex: 1;
-   background-color: rgb(184, 177, 177);
    position: relative;
-   overflow: hidden;
-   border-radius: 70px;
-
+   flex: 1;
+   z-index: 10;
+   border: 4px solid white;
 }
-
+ 
 .slide{
    position: absolute;
    top: 0;
@@ -211,16 +219,17 @@ p{
    left: 0;
    right: 0;
    background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center center;
+   background-size: 600px 600px ;
+   background-position: center;
+   
    opacity: 0;
    transform: scale(1);
    transition: all .3s ease-out;
-   border-radius: 70px;
 
 }
+
 
 .slide:nth-last-child(2){
    opacity: 1;
    transform: scale(0.9);
-} */
+} 
