@@ -94,7 +94,7 @@ nav ul li a:hover{
 .explore{
    width: 100%;
    height: 88vh;
-   background-image: url("/Assets/images/img1.jpg");
+   background-image: url("../../Assets/images/img1.jpg");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -179,7 +179,7 @@ p{
    width: 100%;
    display: flex;
    flex-direction: column;
-   background-image: url(/Assets/images/chihuahua-g95e7ee3f3_1920.jpg);
+   background-image: url(../../Assets/images/chihuahua-g95e7ee3f3_1920.jpg);
    margin-bottom: 50px;
    height: 80vh;
 }
