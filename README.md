@@ -1,7 +1,7 @@
 # Real Estate Landing Page
 This is a website project Dogs website, developed using html,css, JavaScript and uploaded on github.
 
-## TECH STACK
+## TECHNOLOGY STACK
     1. HTML 
     2. CSS
     3. JAVASCRIPT
