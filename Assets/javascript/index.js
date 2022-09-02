@@ -62,3 +62,9 @@ function createSlideShow(images){
     }
 }
 
+
+// button for the cards.
+   function changeColor(){
+     document.querySelector('.card-title').stylecolor = 'red';
+   }
+
