@@ -243,6 +243,13 @@ p{
    margin-bottom: 50px;
 }
 
+.card-btn{
+   padding: 20px;
+   border-radius: 10px;
+   border-color: #056d87;
+   font-weight: bold;
+}
+
 /* footer section */
 footer {
    text-align: center;
@@ -257,7 +264,7 @@ footer {
    text-align: center;
  }
 
- /*  */
+ /*Quotes section.*/
  .collapsible {
    background-color: black;
    color: white;

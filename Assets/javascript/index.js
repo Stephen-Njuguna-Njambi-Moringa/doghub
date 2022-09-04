@@ -64,25 +64,13 @@ function createSlideShow(images){
 
 
 
-var  firstbutton = document.querySelector('.firstbtn')
-
-firstbutton.addEventListener('mouseover',function(){
-    this.classList.toggle('newstyle2')
-})
-
-
-// button for the cards.
-//    function changeColor(){
-//      document.getElementById('card1-title').style.color = 'purple';
-//    }
-
-var  mybutton = document.querySelector('.card1-title')
+var  mybutton = document.querySelector('.card-btn')
 
 mybutton.addEventListener('click',function(){
-    this.classList.toggle('newstyle')
+    this.classList.toggle('newstyle');
 })
 
-// /* The quote section */
+/* The quote section */
 
    var coll = document.getElementsByClassName("collapsible");
 var i;
