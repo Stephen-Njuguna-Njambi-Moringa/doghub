@@ -63,8 +63,39 @@ function createSlideShow(images){
 }
 
 
+
+var  firstbutton = document.querySelector('.firstbtn')
+
+firstbutton.addEventListener('mouseover',function(){
+    this.classList.toggle('newstyle2')
+})
+
+
 // button for the cards.
-   function changeColor(){
-     document.querySelector('.card-title').stylecolor = 'red';
-   }
+//    function changeColor(){
+//      document.getElementById('card1-title').style.color = 'purple';
+//    }
+
+var  mybutton = document.querySelector('.card1-title')
+
+mybutton.addEventListener('click',function(){
+    this.classList.toggle('newstyle')
+})
+
+// /* The quote section */
+
+   var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 
