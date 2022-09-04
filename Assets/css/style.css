@@ -237,8 +237,10 @@ p{
    transform: scale(0.9);
 } 
 
+/* Upcoming events section. */
 .card{
    width: 400px;
+   margin-bottom: 50px;
 }
 
 /* footer section */
@@ -253,4 +255,60 @@ footer {
  footer p{
    font-size: 30px;
    text-align: center;
+ }
+
+ /*  */
+ .collapsible {
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 15px;
+   width: 100%;
+   border-radius: 3px;
+   
+ }
+ 
+ .active, .collapsible:hover {
+   background-color: #555;
+ }
+ 
+ .content {
+   padding: 0 18px;
+   display: none;
+   overflow: hidden;
+   background-color: #f1f1f1;
+   
+
+ }
+
+ #quotes-header{
+   color: black;
+   font-size: 45px;
+   text-align: center;
+ }
+ .quotes-p{
+   color: black;
+   font-size: 20px;
+   
+ }
+
+ .collapsible{
+   font-size: 20px;
+   font-weight: bold;
+   
+ }
+
+ .newstyle{
+   color:#056d87; 
+   
+
+ }
+
+ .newstyle2{
+   font-family: 100px;
  }
